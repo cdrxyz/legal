@@ -111,7 +111,7 @@ export function Hero() {
               Costly platforms or plugins no more. Fill forms faster and cheaper.
             </p>
             <p className="mt-6 text-lg text-gray-600">
-              "Try Legal Ease if you're ready to stop being abused by your divorce form mate."
+              Try Legal Ease if you are ready to stop being abused by your divorce form mate.
             </p>
             {/* <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               <AppStoreLink />
