@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import logo from '@/images/logos/Legal Ease-tree-logo.png'
+import logo from '@/images/logos/legal-tree-logo.png'
 
 export function Logomark(props) {
   return (
