@@ -196,19 +196,15 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-medium tracking-tight text-gray-900">
-            Supercharge your IR website with Widgets
+            All the features you rely on, without the expensive extortion tactics
           </h2>
           <p className="mt-2 text-lg text-gray-600">
-            Company investor relations websites take work.
-            Quarterly document uploads. Full service solutions are costly. 
-            Legal Ease offers easy-to-integrate Widgets which will supercharge your IR website.
+            Legal Ease is built from the ground up to be faster and cheaper.
+            Faster and cheaper to use for you, and faster to ship new features and cheaper to maintain for the team.
+            This means we can keep our prices lower than competitors forever, while delivering more to customers.
+            Do more with less.
           </p>
-          <h3 className="pt-20 text-xl font-medium tracking-tight text-gray-900">
-            Quarterly Financial Summary Widget
-          </h3>
         </div>
-        {/* <!-- Legal Ease Quarterly Financial Documents Table. Learn more at cdr.xyz --> */}
-        <iframe src="https://cdn-Legal Ease.adrw.xyz/cdn/Legal Ease/quarterly-financial-summary-table/zt15zy32tnrmxp6qt1e6x5efe/c7xdefazz8x0q2trd5rchjyzy/" width="100%" height="500px"></iframe>
         <ul
           role="list"
           className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 sm:grid-cols-2 md:gap-y-10 lg:max-w-none lg:grid-cols-3"
