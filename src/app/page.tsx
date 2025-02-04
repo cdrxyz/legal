@@ -46,7 +46,7 @@ function Hero() {
             Radiant provides all the software tools lawyers need, without the extortive price hike tactics you've been gaslit into thinking is okay. It's not. <br/><br/>We love lawyers, and we're here to help.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Get started</Button>
+            <Button href="mailto:hello@cdr.xyz">Get started</Button>
             <Button variant="secondary" href="/pricing">
               See Pricing
             </Button>

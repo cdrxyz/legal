@@ -21,7 +21,7 @@ function CallToAction() {
         We're serious. Try it, you will love it. <br/>Or get your money back for your first for 90 days.
       </p>
       <div className="mt-6">
-        <Button className="w-full sm:w-auto" href="#">
+        <Button className="w-full sm:w-auto" href="mailto:hello@cdr.xyz">
           Get started
         </Button>
       </div>

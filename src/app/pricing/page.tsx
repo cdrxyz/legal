@@ -26,7 +26,7 @@ const tiers = [
     slug: 'starter',
     description: 'Everything you need to start filling divorce forms.',
     priceMonthly: 29,
-    href: '#',
+    href: 'mailto:hello@cdr.xyz',
     highlights: [
       { description: 'Up to 3 team members' },
       { description: 'Up to 5 open matters' },
@@ -54,7 +54,7 @@ const tiers = [
     slug: 'growth',
     description: 'All the extras for your growing team.',
     priceMonthly: 49,
-    href: '#',
+    href: 'mailto:hello@cdr.xyz',
     highlights: [
       { description: 'Up to 10 team members' },
       { description: 'Unlimited open matters' },
@@ -82,7 +82,7 @@ const tiers = [
     slug: 'enterprise',
     description: 'Added flexibility to complete matters at scale.',
     priceMonthly: 79,
-    href: '#',
+    href: 'mailto:hello@cdr.xyz',
     highlights: [
       { description: 'Unlimited active team members' },
       { description: 'Unlimited Open matters' },
