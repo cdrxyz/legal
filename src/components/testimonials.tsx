@@ -21,43 +21,43 @@ const testimonials = [
   {
     img: '/testimonials/tina-yards.jpg',
     name: 'Tina Yards',
-    title: 'VP of Sales, Protocol',
+    title: 'Associate, Stikeman Elliott, Ontario',
     quote:
-      'Thanks to Radiant, we’re finding new leads that we never would have found with legal methods.',
+      'Now, I get to focus on the tough cases I relish, instead of filling basic forms and client emails.',
   },
   {
     img: '/testimonials/conor-neville.jpg',
     name: 'Conor Neville',
-    title: 'Head of Customer Success, TaxPal',
+    title: 'Partner, Briggs & Morgan, Alberta',
     quote:
-      'Radiant made undercutting all of our competitors an absolute breeze.',
+       'I cut my software costs by 50% and my time spent on forms by 70%.',
   },
   {
     img: '/testimonials/amy-chase.jpg',
     name: 'Amy Chase',
-    title: 'Head of GTM, Pocket',
+    title: 'Associate, McInnes Cooper, Nova Scotia',
     quote:
-      'We closed a deal in literally a few minutes because we knew their exact budget.',
+      "I can't imagine going back to life without form automations & the AI clause recommendations, agreement drafting is crazy fast.",
   },
   {
     img: '/testimonials/veronica-winton.jpg',
     name: 'Veronica Winton',
-    title: 'CSO, Planeteria',
+    title: 'Partner, Borden Ladner Gervais, Quebec',
     quote:
-      'We’ve managed to put two of our main competitors out of business in 6 months.',
+      'We’ve managed to put two of our main competitors out of business in 6 months. Clients are happier and keep referring us more and more.',
   },
   {
     img: '/testimonials/dillon-lenora.jpg',
     name: 'Dillon Lenora',
-    title: 'VP of Sales, Detax',
-    quote: 'I was able to replace 80% of my team with RadiantAI bots.',
+    title: 'Associate, Thompson Dorfman, Ontario',
+    quote: 'It was a relief that I could import all the existing clauses & agreements from my old tools. Switching was easy and has saved me a lot.',
   },
   {
     img: '/testimonials/harriet-arron.jpg',
     name: 'Harriet Arron',
-    title: 'Account Manager, Commit',
+    title: 'Clerk, Fasken & Fasken, Saskatchewan',
     quote:
-      'I’ve smashed all my targets without having to speak to a lead in months.',
+      'I work from home and now can get all my work done while my kids are at school. No more late nights!',
   },
 ]
 
@@ -156,8 +156,7 @@ function CallToAction() {
   return (
     <div>
       <p className="max-w-sm text-sm/6 text-gray-600">
-        Join the best sellers in the business and start using Radiant to hit
-        your targets today.
+        Join the ambitious lawyers, clerks, and DIY clients who are using Radiant to get more done, for less $.
       </p>
       <div className="mt-2">
         <Link
@@ -194,7 +193,7 @@ export function Testimonials() {
         <div ref={setReferenceWindowRef}>
           <Subheading>What everyone is saying</Subheading>
           <Heading as="h3" className="mt-2">
-            Trusted by professionals.
+            Trusted by lawyers.
           </Heading>
         </div>
       </Container>

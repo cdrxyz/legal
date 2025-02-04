@@ -12,14 +12,13 @@ function CallToAction() {
       <hgroup>
         <Subheading>Get started</Subheading>
         <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
-          Ready to dive in?
+          Want your own next-gen legal copilot?
           <br />
-          Start your free trial today.
+          Try it, love it. Or your money back.
         </p>
       </hgroup>
       <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-        Get the cheat codes for selling and unlock your team&apos;s revenue
-        potential.
+        We're serious. Try it, you will love it. <br/>Or get your money back for your first for 90 days.
       </p>
       <div className="mt-6">
         <Button className="w-full sm:w-auto" href="#">

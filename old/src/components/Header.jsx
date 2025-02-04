@@ -114,7 +114,7 @@ export function Header() {
                               Log in
                             </Button> */}
                             <a href="mailto:hello@cdr.xyz">
-                              <Button>Get Started</Button>
+                              <Button>Get started</Button>
                             </a>
                           </div>
                         </Popover.Panel>
@@ -129,7 +129,7 @@ export function Header() {
             </Button> */}
             <a href="mailto:hello@cdr.xyz">
               <Button className="hidden lg:block">
-                Get Started
+                Get started
               </Button>
             </a>
           </div>

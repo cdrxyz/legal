@@ -33,23 +33,22 @@ function Hero() {
               href="/radiant-raises-100m-series-a-from-tailwind-ventures"
               className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-hover:bg-fuchsia-950/30"
             >
-              Radiant raises $100M Series A from Tailwind Ventures
+              Radiant raises $100M Series A from Speedlight Ventures & CPPIB
               <ChevronRightIcon className="size-4" />
             </Link>
           }
         />
         <div className="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
-          <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">
-            Close every deal.
+          <h1 className="font-display text-4xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">
+            Escape your abusive divorce form software.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Radiant helps you sell more by revealing sensitive information about
-            your customers.
+            Radiant provides all the software tools lawyers need, without the extortive price hike tactics you've been gaslit into thinking is okay. It's not. <br/><br/>We love you, we're here to help.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Get started</Button>
             <Button variant="secondary" href="/pricing">
-              See pricing
+              See Pricing
             </Button>
           </div>
         </div>
@@ -63,7 +62,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          A snapshot of your entire sales pipeline.
+          Everything matters. It's what we do.
         </Heading>
         <Screenshot
           width={1216}
@@ -79,16 +78,16 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
-      <Subheading>Sales</Subheading>
+      <Subheading>Matter Management</Subheading>
       <Heading as="h3" className="mt-2 max-w-3xl">
-        Know more about your customers than they do.
+        You never thought it could be this easy. We did.
       </Heading>
 
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <BentoCard
-          eyebrow="Insight"
-          title="Get perfect clarity"
-          description="Radiant uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
+          eyebrow="Self-Serve Onboarding"
+          title="Save time collecting initial information"
+          description="Save time filling out initial signup data with form automations, OCR data import, and even a client portal where all required fields can be securely entered."
           graphic={
             <div className="h-80 bg-[url(/screenshots/profile.png)] bg-[size:1000px_560px] bg-[left_-109px_top_-112px] bg-no-repeat" />
           }
@@ -96,9 +95,9 @@ function BentoSection() {
           className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
         />
         <BentoCard
-          eyebrow="Analysis"
-          title="Undercut your competitors"
-          description="With our advanced data mining, you’ll know which companies your leads are talking to and exactly how much they’re being charged."
+          eyebrow="AI Superpowered Calculator"
+          title="Quickly generate competing choices"
+          description="Lawyers are paid to provide options. We make it easy to generate and present them quickly with the numbers, charts, and comparisons to back them up. Final reports are generated in the same, standard format that your judge is used to."
           graphic={
             <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-[size:1100px_650px] bg-[left_-38px_top_-73px] bg-no-repeat" />
           }
@@ -106,9 +105,9 @@ function BentoSection() {
           className="lg:col-span-3 lg:rounded-tr-4xl"
         />
         <BentoCard
-          eyebrow="Speed"
+          eyebrow="Speed is Money"
           title="Built for power users"
-          description="It’s never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
+          description="Streamlined keyboard shortcuts, form automations, OCR data import, and full use of AI will increase your billing efficiency. Your next vacation is on us."
           graphic={
             <div className="flex size-full pt-10 pl-10">
               <Keyboard highlighted={['LeftCommand', 'LeftShift', 'D']} />
@@ -117,16 +116,16 @@ function BentoSection() {
           className="lg:col-span-2 lg:rounded-bl-4xl"
         />
         <BentoCard
-          eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
+          eyebrow="Sales Inbound"
+          title="Increase referrals with automated client program"
+          description="Let us help nudge clients to refer you with an AI optimized referral program structure and incentives."
           graphic={<LogoCluster />}
           className="lg:col-span-2"
         />
         <BentoCard
-          eyebrow="Limitless"
-          title="Sell globally"
-          description="Radiant helps you sell in locations currently under international embargo."
+          eyebrow="From Coast to Coast to Coast"
+          title="Ready for any case in Canada"
+          description="Built for Canadians & their lawyers, by software engineers & lawyers in Canada. We know the task at hand and how you work, and we've got your back, finding new ways every month to improve for you."
           graphic={<Map />}
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
         />
@@ -139,17 +138,17 @@ function DarkBentoSection() {
   return (
     <div className="mx-2 mt-2 rounded-4xl bg-gray-900 py-32">
       <Container>
-        <Subheading dark>Outreach</Subheading>
+        <Subheading dark>Form Automations</Subheading>
         <Heading as="h3" dark className="mt-2 max-w-3xl">
-          Customer outreach has never been easier.
+          Filling divorce forms doesn't need to be as painful as the divorce.
         </Heading>
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <BentoCard
             dark
-            eyebrow="Networking"
-            title="Sell at the speed of light"
-            description="Our RadiantAI chat assistants analyze the sentiment of your conversations in real time, ensuring you're always one step ahead."
+            eyebrow="Smart-Diff Technology"
+            title="Always know what changed"
+            description="Our Microsoft Word plugin features advanced smart-diff technology to showcase differences between versions of agreements or to highlight auto-filled fields in forms."
             graphic={
               <div className="h-80 bg-[url(/screenshots/networking.png)] bg-[size:851px_344px] bg-no-repeat" />
             }
@@ -158,26 +157,26 @@ function DarkBentoSection() {
           />
           <BentoCard
             dark
-            eyebrow="Integrations"
-            title="Meet leads where they are"
-            description="With thousands of integrations, no one will be able to escape your cold outreach."
+            eyebrow="Microsoft Word Plugin & more"
+            title="Ready to work how you do"
+            description="With a top in class Microsoft Word plugin, Google Docs add-on, and in-browser editor, we are always ready to work how you do."
             graphic={<LogoTimeline />}
             // `overflow-visible!` is needed to work around a Chrome bug that disables the mask on the graphic.
             className="z-10 overflow-visible! lg:col-span-2 lg:rounded-tr-4xl"
           />
           <BentoCard
             dark
-            eyebrow="Meetings"
-            title="Smart call scheduling"
-            description="Automatically insert intro calls into your leads' calendars without their consent."
+            eyebrow="Efficiency"
+            title="Reduce time in calls & emails"
+            description="Our AI powered client portal can save you time in calls & emails, automatically notifying for updates or requests."
             graphic={<LinkedAvatars />}
             className="lg:col-span-2 lg:rounded-bl-4xl"
           />
           <BentoCard
             dark
-            eyebrow="Engagement"
-            title="Become a thought leader"
-            description="RadiantAI automatically writes LinkedIn posts that relate current events to B2B sales, helping you build a reputation as a thought leader."
+            eyebrow="Custom Agreements & Clauses"
+            title="Full data import, with AI powered recommendations"
+            description="Regardless of your existing tools, we can import your existing clauses & agreements. Leveraging AI, we can make recommendations for relevant clauses to consider for each matter."
             graphic={
               <div className="h-80 bg-[url(/screenshots/engagement.png)] bg-[size:851px_344px] bg-no-repeat" />
             }

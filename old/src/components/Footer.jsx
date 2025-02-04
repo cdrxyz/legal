@@ -72,8 +72,8 @@ export function Footer() {
           </form> */}
           <a href="mailto:hello@cdr.xyz">
             <Button color="cyan" className="ml-4 flex-none">
-              <span className="hidden lg:inline">Get Started</span>
-              <span className="lg:hidden">Get Started</span>
+              <span className="hidden lg:inline">Get started</span>
+              <span className="lg:hidden">Get started</span>
             </Button>
           </a>
           <p className="mt-6 text-sm text-gray-500 md:mt-0">
