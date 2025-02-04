@@ -17,32 +17,32 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Pricing',
   description:
-    'Companies all over the world have closed millions of deals with Radiant. Sign up today and start selling smarter.',
+    'Law firms all over the country have completed thousands of matters, faster and cheaper with Radiant. Sign up today and supercharge your practice.',
 }
 
 const tiers = [
   {
     name: 'Starter' as const,
     slug: 'starter',
-    description: 'Everything you need to start selling.',
-    priceMonthly: 99,
+    description: 'Everything you need to start filling divorce forms.',
+    priceMonthly: 29,
     href: '#',
     highlights: [
       { description: 'Up to 3 team members' },
-      { description: 'Up to 5 deal progress boards' },
+      { description: 'Up to 5 open matters' },
       { description: 'Source leads from select platforms' },
       { description: 'RadiantAI integrations', disabled: true },
-      { description: 'Competitor analysis', disabled: true },
+      { description: 'Matter analysis', disabled: true },
     ],
     features: [
       { section: 'Features', name: 'Accounts', value: 3 },
-      { section: 'Features', name: 'Deal progress boards', value: 5 },
+      { section: 'Features', name: 'Open matters', value: 5 },
       { section: 'Features', name: 'Sourcing platforms', value: 'Select' },
       { section: 'Features', name: 'Contacts', value: 100 },
-      { section: 'Features', name: 'AI assisted outreach', value: false },
-      { section: 'Analysis', name: 'Competitor analysis', value: false },
+      { section: 'Features', name: 'AI assisted agreements', value: false },
+      { section: 'Analysis', name: 'Matter analysis', value: false },
       { section: 'Analysis', name: 'Dashboard reporting', value: false },
-      { section: 'Analysis', name: 'Community insights', value: false },
+      { section: 'Analysis', name: 'Client insights', value: false },
       { section: 'Analysis', name: 'Performance analysis', value: false },
       { section: 'Support', name: 'Email support', value: true },
       { section: 'Support', name: '24 / 7 call center support', value: false },
@@ -53,24 +53,24 @@ const tiers = [
     name: 'Growth' as const,
     slug: 'growth',
     description: 'All the extras for your growing team.',
-    priceMonthly: 149,
+    priceMonthly: 49,
     href: '#',
     highlights: [
       { description: 'Up to 10 team members' },
-      { description: 'Unlimited deal progress boards' },
+      { description: 'Unlimited open matters' },
       { description: 'Source leads from over 50 verified platforms' },
       { description: 'RadiantAI integrations' },
       { description: '5 competitor analyses per month' },
     ],
     features: [
       { section: 'Features', name: 'Accounts', value: 10 },
-      { section: 'Features', name: 'Deal progress boards', value: 'Unlimited' },
+      { section: 'Features', name: 'Open matters', value: 'Unlimited' },
       { section: 'Features', name: 'Sourcing platforms', value: '100+' },
       { section: 'Features', name: 'Contacts', value: 1000 },
-      { section: 'Features', name: 'AI assisted outreach', value: true },
-      { section: 'Analysis', name: 'Competitor analysis', value: '5 / month' },
+      { section: 'Features', name: 'AI assisted agreements', value: true },
+      { section: 'Analysis', name: 'Matter analysis', value: '5 / month' },
       { section: 'Analysis', name: 'Dashboard reporting', value: true },
-      { section: 'Analysis', name: 'Community insights', value: true },
+      { section: 'Analysis', name: 'Client insights', value: true },
       { section: 'Analysis', name: 'Performance analysis', value: true },
       { section: 'Support', name: 'Email support', value: true },
       { section: 'Support', name: '24 / 7 call center support', value: true },
@@ -80,25 +80,25 @@ const tiers = [
   {
     name: 'Enterprise' as const,
     slug: 'enterprise',
-    description: 'Added flexibility to close deals at scale.',
-    priceMonthly: 299,
+    description: 'Added flexibility to complete matters at scale.',
+    priceMonthly: 79,
     href: '#',
     highlights: [
       { description: 'Unlimited active team members' },
-      { description: 'Unlimited deal progress boards' },
+      { description: 'Unlimited Open matters' },
       { description: 'Source leads from over 100 verified platforms' },
       { description: 'RadiantAI integrations' },
       { description: 'Unlimited competitor analyses' },
     ],
     features: [
       { section: 'Features', name: 'Accounts', value: 'Unlimited' },
-      { section: 'Features', name: 'Deal progress boards', value: 'Unlimited' },
+      { section: 'Features', name: 'Open matters', value: 'Unlimited' },
       { section: 'Features', name: 'Sourcing platforms', value: '100+' },
       { section: 'Features', name: 'Contacts', value: 'Unlimited' },
-      { section: 'Features', name: 'AI assisted outreach', value: true },
-      { section: 'Analysis', name: 'Competitor analysis', value: 'Unlimited' },
+      { section: 'Features', name: 'AI assisted agreements', value: true },
+      { section: 'Analysis', name: 'Matter analysis', value: 'Unlimited' },
       { section: 'Analysis', name: 'Dashboard reporting', value: true },
-      { section: 'Analysis', name: 'Community insights', value: true },
+      { section: 'Analysis', name: 'Client insights', value: true },
       { section: 'Analysis', name: 'Performance analysis', value: true },
       { section: 'Support', name: 'Email support', value: true },
       { section: 'Support', name: '24 / 7 call center support', value: true },
@@ -110,10 +110,10 @@ const tiers = [
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Pricing that grows with your team size.</Heading>
+      <Heading as="h1">Pricing that will stay so cheap, you'll forget you're paying.</Heading>
       <Lead className="mt-6 max-w-3xl">
-        Companies all over the world have closed millions of deals with Radiant.
-        Sign up today and start selling smarter.
+      Lawyers all over the country have completed thousands of matters, faster and cheaper with Radiant. 
+      Sign up and supercharge your firm.
       </Lead>
     </Container>
   )
@@ -387,15 +387,14 @@ function Testimonial() {
             <figure className="mx-auto flex max-w-xl flex-col gap-16 max-lg:text-center">
               <blockquote>
                 <p className="relative text-3xl tracking-tight text-white before:absolute before:-translate-x-full before:content-['“'] after:absolute after:content-['”'] lg:text-4xl">
-                  Thanks to Radiant, we&apos;re finding new leads that we never
-                  would have found with legal methods.
+                  Now, I get to focus on the tough cases I relish, instead of filling basic forms and client emails.
                 </p>
               </blockquote>
               <figcaption className="mt-auto">
                 <p className="text-sm/6 font-medium text-white">Tina Yards</p>
                 <p className="text-sm/6 font-medium">
                   <span className="bg-linear-to-r from-[#fff1be] from-28% via-[#ee87cb] via-70% to-[#b060ff] bg-clip-text text-transparent">
-                    VP of Sales, Protocol
+                    Associate, Stikeman Elliott, Ontario
                   </span>
                 </p>
               </figcaption>
@@ -423,64 +422,39 @@ function FrequentlyAskedQuestions() {
               What measures are in place to ensure the security of our data?
             </dt>
             <dd className="mt-4 text-sm/6 text-gray-600">
-              Data security is a top priority for us, which is ironic given that
-              our business depends on others not taking it very seriously. We
-              understand that any breach could put both us and most of our
-              customers out of business—and behind bars. We employ robust
-              security measures, including data encryption, secure data centers,
-              and regular security audits to ensure this never happens.
+              Data security is a top priority for us, and we use industry-standard encryption and security measures to protect your data.
             </dd>
           </dl>
           <dl>
             <dt className="text-sm font-semibold">
-              Is there a mobile app available for your platform?
+              What if I need help with the software?
             </dt>
             <dd className="mt-4 text-sm/6 text-gray-600">
-              Yes, we offer a mobile app that provides all the key
-              functionalities of our desktop platform, allowing sales reps to
-              manage deals on the go. Additionally, we have another app
-              pre-installed on most modern smartphones that allows us to track
-              your location, listen to your conversations, and access your
-              camera and microphone at any time. This app is not available for
-              download.
+              We offer comprehensive support through multiple channels, including 24/7 live chat, email, and phone support.
             </dd>
           </dl>
           <dl>
             <dt className="text-sm font-semibold">
-              Can I customize the workflow to match our company’s deal process?
+              Can I customize the workflow to match our company’s legal process?
             </dt>
             <dd className="mt-4 text-sm/6 text-gray-600">
-              Yes, our platform is highly customizable, although there should be
-              no need. Before you sign up, we discreetly gather information
-              about your company and its processes from a variety of sources. We
-              then use this information to pre-configure the platform to match
-              your existing workflows. This is why we ask for your social
-              security number and access to your email account during the
-              sign-up process.
+              Yes, we offer a range of customization options to tailor the software to your specific legal process.
             </dd>
           </dl>
           <dl>
             <dt className="text-sm font-semibold">
-              What kind of support do you offer?
+              Can I import my existing documents and clauses from my current tool?
             </dt>
             <dd className="mt-4 text-sm/6 text-gray-600">
-              We offer comprehensive support through multiple channels,
-              including 24/7 live chat, email, and phone support. However, since
-              we have full access to your internal network, we will know if
-              you’re having issues before you do.
+              Yes, we offer easy import from any existing tool so you can get started quickly with everything you need.
             </dd>
           </dl>
           <dl>
             <dt className="text-sm font-semibold">
-              Can I integrate the CRM with other sales intelligence tools?
+              What if I'm not satisfied with the software?
             </dt>
             <dd className="mt-4 text-sm/6 text-gray-600">
-              Yes, our solution integrates seamlessly with a variety of other
-              systems. However, be warned that most of these integrations are
-              short-lived. We have a dedicated team of engineers who
-              reverse-engineer the APIs of other tools, enabling us to build
-              their functionality into our product and eventually put them out
-              of business.
+              We offer a 90-day money-back guarantee. If you're not satisfied with the software, we'll refund your payment.
             </dd>
           </dl>
         </div>

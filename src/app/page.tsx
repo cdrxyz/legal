@@ -43,7 +43,7 @@ function Hero() {
             Escape your abusive divorce form software.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Radiant provides all the software tools lawyers need, without the extortive price hike tactics you've been gaslit into thinking is okay. It's not. <br/><br/>We love you, we're here to help.
+            Radiant provides all the software tools lawyers need, without the extortive price hike tactics you've been gaslit into thinking is okay. It's not. <br/><br/>We love lawyers, and we're here to help.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Get started</Button>
@@ -62,7 +62,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          Everything matters. It's what we do.
+          Everything 'matters'.<br/>It's what we do.
         </Heading>
         <Screenshot
           width={1216}
@@ -80,7 +80,7 @@ function BentoSection() {
     <Container>
       <Subheading>Matter Management</Subheading>
       <Heading as="h3" className="mt-2 max-w-3xl">
-        You never thought it could be this easy. We did.
+        You never thought filing for divorce could be this easy. We did.
       </Heading>
 
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">

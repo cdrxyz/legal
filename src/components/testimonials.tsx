@@ -44,7 +44,7 @@ const testimonials = [
     name: 'Veronica Winton',
     title: 'Partner, Borden Ladner Gervais, Quebec',
     quote:
-      'We’ve managed to put two of our main competitors out of business in 6 months. Clients are happier and keep referring us more and more.',
+      'We’ve managed to put two of our main competitors out of business in 6 months. Clients are happier using the self-serve portal and keep referring us more and more.',
   },
   {
     img: '/testimonials/dillon-lenora.jpg',
