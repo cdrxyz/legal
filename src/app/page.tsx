@@ -19,7 +19,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   description:
-    'Radiant helps you sell more by revealing sensitive information about your customers.',
+    'Pay less for software that lets lawyers do more.',
 }
 
 function Hero() {
