@@ -324,7 +324,7 @@ function Testimonial() {
       <figure className="relative p-10">
         <blockquote>
           <p className="relative text-xl/7 text-white before:absolute before:-translate-x-full before:content-['“'] after:absolute after:content-['”']">
-          We’ve managed to put two of our main competitors out of business in 6 months. Clients are happier using the self-serve portal and keep referring us more and more.
+            We’ve managed to put two of our main competitors out of business in 6 months. Clients are happier using the self-serve portal and keep referring us more and more.
           </p>
         </blockquote>
         <figcaption className="mt-6 border-t border-white/20 pt-6">
